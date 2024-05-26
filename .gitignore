@@ -2,3 +2,10 @@
 *.out
 **/target/
 *.lock
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.jupyter_cache/
+**/.ipynb_checkpoints/
+**/.vscode/
+**/.idea/
