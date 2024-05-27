@@ -5,7 +5,7 @@
 int main(void) {
     //정수형 자료형 출력
     printf("<Data Type 정수형>\n");
-    printf("char(%ld)의 최소값/최대값 : %d~%d\n", sizeof(char), CHAR_MIN, CHAR_MAX);
+    printf("char(%d)의 최소값/최대값 : %d~%d\n", sizeof(char), CHAR_MIN, CHAR_MAX);
     printf("unsigned char(%ld)의 최소값/최대값 : %d~%d\n", sizeof(unsigned char), 0, UCHAR_MAX);
     printf("shor(%ld)의 최소값/최대값 : %d~%d\n", sizeof(short), SHRT_MIN, SHRT_MAX);
     printf("unsigned short(%ld)의 최소값/최대값 : %d~%d\n", sizeof(unsigned short), 0, USHRT_MAX);
